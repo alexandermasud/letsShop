@@ -1,18 +1,21 @@
 ﻿<Properties StartupConfiguration="{A09DB8EA-3E15-4A43-AEBB-F70E1E2F62C9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Controllers/ProductsController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Errors/ApiResponse.cs">
     <Files>
-      <File FileName="API/Controllers/ProductsController.cs" Line="49" Column="10" />
-      <File FileName="Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" />
-      <File FileName="Core/Specifications/BaseSpecification.cs" />
+      <File FileName="API/Controllers/BaseApiController.cs" Line="1" Column="1" />
+      <File FileName="API/Controllers/ProductsController.cs" Line="70" Column="1" />
+      <File FileName="API/Controllers/BuggyController.cs" Line="48" Column="1" />
+      <File FileName="API/Errors/ApiResponse.cs" Line="6" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="letsShop" expanded="True">
             <Node name="API" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ProductsController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Errors" expanded="True">
+                <Node name="ApiResponse.cs" selected="True" />
               </Node>
+              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>
