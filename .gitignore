@@ -5,3 +5,4 @@ appsettings.json
 *.DS_Store
 Infrastructure/obj
 Infrastructure/bin
+.DS_Store
