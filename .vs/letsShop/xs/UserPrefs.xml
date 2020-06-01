@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{A09DB8EA-3E15-4A43-AEBB-F70E1E2F62C9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Controllers/ProductsController.cs">
+    <Files>
+      <File FileName="API/Controllers/ProductsController.cs" Line="49" Column="10" />
+      <File FileName="Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" />
+      <File FileName="Core/Specifications/BaseSpecification.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="letsShop" expanded="True">
+            <Node name="API" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ProductsController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.API PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
