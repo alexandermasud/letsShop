@@ -1,10 +1,14 @@
 ﻿<Properties StartupConfiguration="{A09DB8EA-3E15-4A43-AEBB-F70E1E2F62C9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Errors/ApiResponse.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="API/Startup.cs">
     <Files>
-      <File FileName="API/Controllers/BaseApiController.cs" Line="1" Column="1" />
-      <File FileName="API/Controllers/ProductsController.cs" Line="70" Column="1" />
-      <File FileName="API/Controllers/BuggyController.cs" Line="48" Column="1" />
-      <File FileName="API/Errors/ApiResponse.cs" Line="6" Column="19" />
+      <File FileName="API/Controllers/BaseApiController.cs" Line="10" Column="8" />
+      <File FileName="API/Controllers/ProductsController.cs" />
+      <File FileName="API/Controllers/BuggyController.cs" />
+      <File FileName="API/Errors/ApiResponse.cs" />
+      <File FileName="API/Controllers/ErrorController.cs" />
+      <File FileName="API/Startup.cs" Line="29" Column="10" />
+      <File FileName="API/Middleware/ExceptionMiddleware.cs" />
+      <File FileName="API/Errors/ApiValidationErrorResponse.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,16 +16,13 @@
           <Node name="letsShop" expanded="True">
             <Node name="API" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Errors" expanded="True">
-                <Node name="ApiResponse.cs" selected="True" />
-              </Node>
+              <Node name="Errors" expanded="True" />
+              <Node name="Middleware" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
