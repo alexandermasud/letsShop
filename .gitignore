@@ -1,8 +1,7 @@
-obj
-bin
+**/obj
+**/bin
 appsettings.json
 *.db
 *.DS_Store
-Infrastructure/obj
-Infrastructure/bin
 .DS_Store
+.vs/letsShop/xs/UserPrefs.xml

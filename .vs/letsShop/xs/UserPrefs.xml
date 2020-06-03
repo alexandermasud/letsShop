@@ -1,17 +1,25 @@
 ﻿<Properties StartupConfiguration="{A09DB8EA-3E15-4A43-AEBB-F70E1E2F62C9}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API/Extensions/SwaggerServiceExtensions.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/Data/StoreContext.cs">
     <Files>
       <File FileName="API/Controllers/BaseApiController.cs" Line="10" Column="8" />
-      <File FileName="API/Controllers/ProductsController.cs" Line="54" Column="10" />
+      <File FileName="API/Controllers/ProductsController.cs" Line="37" Column="1" />
       <File FileName="API/Controllers/BuggyController.cs" />
       <File FileName="API/Errors/ApiResponse.cs" />
-      <File FileName="API/Startup.cs" Line="66" Column="16" />
+      <File FileName="API/Startup.cs" Line="23" Column="35" />
       <File FileName="API/Middleware/ExceptionMiddleware.cs" />
       <File FileName="API/Errors/ApiValidationErrorResponse.cs" />
       <File FileName="API/Controllers/ErrorController.cs" />
       <File FileName="API/Controllers/WeatherForecastController.cs" Line="12" Column="44" />
       <File FileName="API/Extensions/ApplicationServicesExtensions.cs" Line="35" Column="29" />
-      <File FileName="API/Extensions/SwaggerServiceExtensions.cs" Line="6" Column="9" />
+      <File FileName="API/Extensions/SwaggerServiceExtensions.cs" Line="27" Column="24" />
+      <File FileName="API/Program.cs" Line="1" Column="1" />
+      <File FileName="API/letsShop.db" />
+      <File FileName="Infrastructure/Data/ProductRepository.cs" Line="35" Column="13" />
+      <File FileName="Core/Specifications/ISpecification.cs" Line="12" Column="54" />
+      <File FileName="Core/Specifications/BaseSpecification.cs" Line="42" Column="1" />
+      <File FileName="Infrastructure/Data/SpecificationEvaluator.cs" Line="22" Column="14" />
+      <File FileName="Core/Specifications/ProductsWithTypesAndBrandsSpecification.cs" Line="29" Column="14" />
+      <File FileName="Infrastructure/Data/StoreContext.cs" Line="22" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,12 +27,23 @@
           <Node name="letsShop" expanded="True">
             <Node name="API" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Dtos" expanded="True" />
               <Node name="Errors" expanded="True" />
-              <Node name="Extensions" expanded="True">
-                <Node name="SwaggerServiceExtensions.cs" selected="True" />
-              </Node>
+              <Node name="Extensions" expanded="True" />
+              <Node name="Helpers" expanded="True" />
               <Node name="Middleware" expanded="True" />
               <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="Core" expanded="True">
+              <Node name="Entities" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Specifications" expanded="True" />
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="Config" expanded="True" />
+                <Node name="StoreContext.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
